@@ -2,11 +2,11 @@ Parse and gather some info for the leak https://github.com/arsolutioner/fortigat
 
 clone this repo
 download affected_ips.txt and GeoLite2-City.mmdb in the repo's folder
--- run
+run
 ```
 python3 fortigate-belsen-leak-checker/someChecker.py --tld cl
 ```
--- should see something similar to
+should see something similar to
 ```
 200.126.107.xx 1411x   200.126.107.x/24        No disponible
 200.73.92.xxx  1874x   200.73.64.x/19          host242.200.73.xx.static.ifxnw.cl
